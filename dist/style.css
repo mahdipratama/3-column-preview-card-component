@@ -119,6 +119,9 @@ a:active {
 }
 .card__items h2 {
   font-size: 2.375rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--bg-main);
   margin-bottom: 2.375rem;
 }
 .card__items p {
