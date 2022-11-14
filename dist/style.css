@@ -137,7 +137,7 @@ a:active {
   display: inline-block;
   background-color: var(--bg-main);
   border-radius: 500px;
-  padding: 0.625rem 1.8125rem;
+  padding: 0.9375rem 1.875rem;
   border: 2px solid var(--bg-main);
   transition: all 200ms;
 }
