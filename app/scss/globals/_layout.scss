@@ -1,5 +1,5 @@
 @use '../utilities/' as *;
-  /*
+/*
   // Centering Block
 
   // max-width: 1000px;
@@ -11,3 +11,32 @@
   // padding-right: 20px;
   width: min(100% - u.rem(40), u.rem(1000));
   */
+
+body {
+  width: 100%;
+
+  padding-left: rem(20);
+  padding-right: rem(20);
+
+  @include breakpoint-up(medium) {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.container {
+  // width: min(100% - rem(40), rem(326));
+  max-width: rem(765);
+
+  min-height: rem(1325);
+  margin: rem(83) auto;
+
+  @include breakpoint-up(medium) {
+    min-height: rem(498);
+    max-width: rem(918);
+
+    margin: 0;
+  }
+}
